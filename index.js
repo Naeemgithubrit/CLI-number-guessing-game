@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import inquirer from "inquirer";
+console.log("\n\tWelcome to naeem-cli-number-guessing\n");
 const randomNumber = Math.floor(Math.random() * 6 + 1);
 const answer = await inquirer.prompt([
     {
